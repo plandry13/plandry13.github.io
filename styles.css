@@ -8,12 +8,17 @@ body{
 }
 
 a{
-  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+  font-family: monospace;
 }
 li{
   list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
 }
 nav{
   width: 100vw;
-  background-color: black;
+  background-color:cornflowerblue;
 }
