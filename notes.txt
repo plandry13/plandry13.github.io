@@ -1,0 +1,2 @@
+working through issues with navbar, i want to have a dropdown menu, the trick is to hide the content and then hover to show the menu
+
