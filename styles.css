@@ -28,7 +28,6 @@ li{
   list-style-type: none;
   margin: 0 2vw;
   font-size: 3vh;
-  
 }
 h1{
   position: absolute;
@@ -101,5 +100,36 @@ ul li ul li {
 }
 .inner_footer .logo_container{
   width:35%;
-  
+  float: left;
+  height: 100%;
+  display: block;
 }
+.inner_footer .logo_container img{
+  width:60%;
+  height: auto;
+}
+.inner_footer .footer_third{
+  width: calc(21.66666666666% - 20px);
+  margin-right: 10px;
+  float:left;
+  height: 100%;
+}
+.inner_footer .footer_third:last-child{
+margin-right: 0;
+}
+.inner_footer .footer_third h1{
+font-family: 'arial';
+font-size: 22px;
+color: white;
+display: block;
+width: 100%;
+margin-bottom: 20px;
+}
+.inner_footer .footer_third a{
+  font-family: 'arial';
+  font-size: 18px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  }
