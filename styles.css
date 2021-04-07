@@ -5,12 +5,7 @@
   text-decoration: none;
 }
 
-body{
-background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view-South-Iceland3.jpg) no-repeat center center;
-  background-size: cover;
-  height: 570px;
-  margin: 0;
-}
+
 
 .footer{
   width: 100vw;
@@ -45,7 +40,7 @@ background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view
 .inner_footer .footer_third:last-child{
 margin-right: 0;
 }
-.inner_footer .footer_third h1{
+.inner_footer .footer_third h2{
 font-family: 'arial';
 font-size: 22px;
 color: white;
@@ -61,3 +56,10 @@ margin-bottom: 20px;
   width: 100%;
   padding-bottom: 5px;
   }
+  .inner_footer .footer_third li{
+    font-family: 'arial';
+    font-size: 18px;
+    color: white;
+    display:inline-block;
+    padding: 0 5;
+    }
