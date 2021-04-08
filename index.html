@@ -6,28 +6,48 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<header>
+  <a href="#" class="logo">LOGO</a>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
 
+
+
+
+</header>
+<section class="banner"></section>
 
  <div class="footer">
 <div class="inner_footer">
   <div class="logo-container">
     <img src="#" alt="">
+    <li><i class="fab fa-facebook"></i></li> 
+  </div>
+  <div class="footer_third">
+    <span>-</span>
   </div>
   <div class="footer_third">
     <h2>EMAIL</h2>
     <a href="#">plandry@gmail.com</a>
   </div>
   <div class="footer_third">
-    <h2>Need help?</h2>
+    <h2>Legal</h2>
     <a href="#">Terms and conditions</a>
+    <a href="#">Privacy Policy</a>
   </div>
   <div class="footer_third">
-    <h2>Follow Me:</h2>
+    <h2>Follow Me</h2>
     <ul>
       <li><i class="fab fa-facebook"></i></li>
       <li><i class="fab fa-twitter"></i></li>
@@ -38,7 +58,13 @@
 </div>
 
  </div>
-  <script src="scripts.js"></script>
+  <script type="text/javascript">
+window.addEventListener ("scroll",function(){
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+})
+
+  </script>
 
   
 </body>
