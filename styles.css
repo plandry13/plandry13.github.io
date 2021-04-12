@@ -12,6 +12,24 @@
   --body-font-family:; 'Lato', sans-serif;
 }
 
+.down-button{
+  padding:1rem;
+  position: absolute;
+  top: 90%;
+  left:50%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  animation: bounce .3s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+
 /* Portfolio gallary section, show my work */
 
 .container{
@@ -67,8 +85,71 @@
 .photo-gallery .image-box:hover > .pic-title{
   transform: translateY(0px);
 }
+@media(max-width:768px){
+  .photo-list{
+    column-count: 2;
+  }
+}
+@media(max-width:480px){
+  .photo-list{
+    column-count: 1;
+  }
+  .photo-gallery h2{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 15px;
+  }
+}
 
 /*end  Portfolio gallary section, show my work */
+
+.serv-content{
+  padding: 70px 10%;
+
+}
+.serv-content h2{
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+.serv-content .title{
+  font-size: 19px;
+  text-align: center;
+  color: #888;
+}
+.serv-content .card .title{
+  color: #333;
+  font-weight: 500;
+}
+.serv-content .text{
+  font-size: 16px;
+  text-align: center;
+  color: #888;
+}
+.serv-content i{
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  color: #0099FF;
+}
+
+.serv-content .flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.serv-content .card{
+  background: #fff;
+  width: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  box-shadow: 5px 10px 20px rgba(0,0,0,.1);
+  border-bottom: 5px solid #0099ff;
+}
 
 /* pricing table section */
 
@@ -247,7 +328,8 @@ header.sticky ul li a{
   width: 100%;
   height: 100vh;
   background: url(pexels-cottonbro-5054541.jpg);
-  background-size:cover;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
 }
 
 
