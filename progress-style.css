@@ -86,6 +86,10 @@ body{
   background-color:#e0e0e0 ;
   cursor: not-allowed;
 }
+.wrapper{
+  width: 1170px;
+  margin: 20px auto;
+}
 nav
 {
   position: absolute;
