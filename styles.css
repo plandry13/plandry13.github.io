@@ -44,6 +44,8 @@
 .skills{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 100%;
   height: 400px;
   background-image: url('codebg.jpg');
@@ -56,8 +58,9 @@
 .skills h2{
   color: white;
   font-size: 1.3rem;
-  position:absolute;
-  top: 50px;
+  order: -1;
+  flex: 1 0 100%;
+  
 }
 .skills span{
   display: flex;
