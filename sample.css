@@ -117,17 +117,7 @@ a:hover, a:focus {
   color: $white;
 }
 
-.skills-text {
-  font-size: 1em;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: $yellow;
-  
-  @media (max-width: $md-screen) {
-    margin-bottom: 70px;
-  }
-}
+
 
 .contact-text {
   font-size: 2.2em;
@@ -162,9 +152,7 @@ a:hover, a:focus {
 .bg-blue {
   background-color: $blue;
 }
-.grey-overlay {
-  background-color: $grey;
-}
+
 .no-bg {
   background: transparent;
 }
@@ -363,13 +351,7 @@ a:hover, a:focus {
   height: 100%;
   vertical-align: middle;
 }
-.content-section {
-  padding: 100px 0;
-  
-  @media (min-width: $sm-screen) {
-    padding: 200px 0;
-  }
-}
+
 
 .scroll-indicator {
   display: none;
@@ -395,17 +377,7 @@ a:hover, a:focus {
 /*
  *  Skills 
  */  
-.skills-section {
-  width: 100%;
-  background: url(https://images.unsplash.com/photo-1417733403748-83bbc7c05140?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450) no-repeat center center;
-  background-size: cover;
-  background-color: $grey;
-}
 
-.skills-icon {
-  font-size: 5em;
-  color: $yellow;
-}
 
 /*
  *   Work 
@@ -527,17 +499,7 @@ a:hover, a:focus {
 /* 
  *  Commons
  */
-.section-title {
-  font-weight: 400;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: $white;
-  
-  .skills-section & {
-    color: $yellow;
-  }
-}
+
 
 .section-text {
   font-weight: 400;
@@ -637,9 +599,7 @@ a:hover, a:focus {
   margin-bottom: 90px;
 }
 
-.mb-100 {
- margin-bottom: 100px;
-}
+
 
 .pt-0 {
   padding-top: 0 !important;

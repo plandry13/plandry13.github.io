@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="sample.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -47,7 +56,62 @@
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
   <!-- Skills Section -->
+
+.skills-text {
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $yellow;
+  
+  @media (max-width: $md-screen) {
+    margin-bottom: 70px;
+  }
+}
+.skills-section {
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1417733403748-83bbc7c05140?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450) no-repeat center center;
+  background-size: cover;
+  background-color: $grey;
+}
+
+.skills-icon {
+  font-size: 5em;
+  color: $yellow;
+}
+.content-section {
+  padding: 100px 0;
+  
+  @media (min-width: $sm-screen) {
+    padding: 200px 0;
+  }
+}
+.grey-overlay {
+  background-color: $grey;
+}
+.mb-100 {
+  margin-bottom: 100px;
+ }
+ .section-title {
+  font-weight: 400;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: $white;
+  
+  .skills-section & {
+    color: $yellow;
+  }
+}
+
   <section id="skills" class="skills-section"> 
     <div class="content-section text-center grey-overlay">
       <div class="container">
@@ -61,7 +125,7 @@
             <div class="icon-web-development-2 skills-icon mb-20"></div>
             <div class="skills-text">Web Design</div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col- md-3">
             <div class="icon-computer-monitor-and-cellphone skills-icon mb-20"></div>
             <div class="skills-text">Responsive Design</div>
           </div> 
@@ -73,6 +137,11 @@
       </div>
     </div>
   </section>
+
+
+
+
+
   <!-- Work Section -->
   <section id="work" class="work-section bg-black">
     <div class="content-section text-center">
@@ -153,3 +222,14 @@
     </div>
   </section>
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
